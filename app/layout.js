@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "NotesWala - Notes and Assignment",
+  title: "NotesWala! - Notes and Assignment",
   description: "Welcome to NotesWala! Your one-stop destination for all your MCA study needs. Here, you will find comprehensive notes, helpful assignments, and important notifications to assist you in your academic journey at PGRRCDE, Osmania University. Dive in and enhance your learning experience with us!",
 };
 
