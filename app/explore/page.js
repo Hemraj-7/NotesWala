@@ -45,13 +45,9 @@ const page = () => {
         <div className='w-full min-h-[500px] border border-black p-2 rounded-lg'>
           <h2 className='text-xl font-bold text-center p-3'>Notifications</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
+              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Assignments Realese</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Weekend Classes Time Table</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'./notify/MCA_Syllabus.pdf'}>MCA Syllabus</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Mathematical Foundations of Computer Science</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Data Structures using C</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Computer Architecture</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Probability & Statistics</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Managerial Economics and Accountancy</Link></li>
             </ul>
         </div>
       </div>
