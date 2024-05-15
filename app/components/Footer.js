@@ -6,10 +6,9 @@ const Footer = () => {
         <div className='text-white text-sm p-2 text-center bg-blue-900 flex flex-col'>
             <ul className='flex gap-2 text-center items-center justify-center md:hidden'>
                 <Link href={'/explore'} className='underline hover:text-gray-400'><li>Notes</li></Link>
-                <Link href={'/explore'} className='underline hover:text-gray-400'><li>Assignment</li></Link>
+                <Link href={'/explore'} className='underline hover:text-gray-400'><li>Assignments</li></Link>
                 <Link href={'/explore'} className='underline hover:text-gray-400'><li>Notifications</li></Link>
-                <Link href={'/about'} className='underline hover:text-gray-400'><li>About us</li></Link>
-                <Link href={'/contact'} className='underline hover:text-gray-400'><li>Contact us</li></Link>
+                <Link href={'/contact'} className='underline hover:text-gray-400'><li>Contact</li></Link>
             </ul>
             <span className='pt-3 md:pt-0'>
                 All right reserved &copy; by

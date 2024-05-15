@@ -12,10 +12,9 @@ const Navbar = () => {
         <div>
             <ul className='hidden md:flex gap-3'>
                 <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Notes</li></Link>
-                <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Assignment</li></Link>
+                <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Assignments</li></Link>
                 <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Notifications</li></Link>
-                <Link href={'/about'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>About us</li></Link>
-                <Link href={'/contact'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Contact us</li></Link>
+                <Link href={'/contact'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Contact</li></Link>
             </ul>
         </div>
       
