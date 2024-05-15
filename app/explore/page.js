@@ -13,10 +13,10 @@ const page = () => {
           <div className='p-2'>
             <h3 className='font-bold pt-1'>THEORY</h3>
             <ul className='flex flex-col gap-2 p-3'>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Mathematical Foundations of Computer Science</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Data Structures using C</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Computer Architecture</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/'}>*Mathematical Foundations of Computer Science</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/c/C Programming Handwritten Notes.pdf'}>Data Structures using C</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/'}>*Object Oriented Programming using Java</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/'}>*Computer Architecture</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/explore/notes'}>Probability & Statistics</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/explore/notes'}>Managerial Economics and Accountancy</Link></li>
             </ul>
