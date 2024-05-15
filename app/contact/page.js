@@ -6,9 +6,9 @@ import Link from 'next/link';
 const page = () => {
     return (
         <div>
-            <div className="w-[85%] md:w-[47%] min-h-[85vh] mx-auto flex flex-col gap-5 md:gap-3 items-center">
+            <div className="w-[85%] md:w-1/2 min-h-[85vh] mx-auto flex flex-col gap-5 md:gap-3 items-center text-justify">
                 <div>
-                    <h1 className='font-bold text-4xl p-4 pt-7'>
+                    <h1 className='font-bold text-4xl p-4 pt-5 md:pt-7'>
                         Contact Us
                     </h1>
                 </div>
@@ -35,7 +35,7 @@ const page = () => {
                     <button><Link href={'https://github.com/Hemraj-7'}><FaGithub className='text-3xl' /></Link></button>
                     <button><Link href={'https://www.linkedin.com/in/hem-raj-862624202/'}><FaLinkedin className='text-3xl' /></Link></button>
                     <button><Link href={'https://www.instagram.com/hemraj__parihar/'}><FaInstagram className='text-3xl' /></Link></button>
-                    <button><Link href={'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfrsqmDLQBMpkLMjSzHWqhHstgXzLKHBBqMsvDNqfLDlxWCSJhMNmpXBmZnFmgghsrrsqB'}><CgMail className='text-[38px]' /></Link></button>
+                    <button><a href="mailto:mhemraj814@gmail.com"><CgMail className='text-[38px]' /></a></button>
                 </div>
             </div>
         </div>
