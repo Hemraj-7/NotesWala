@@ -33,6 +33,7 @@ const page = () => {
             <ul className='flex flex-col gap-2 p-3 px-5'>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Mathematical Foundations of Computer Science</Link></li> */}
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 1.pdf'}>Data Structures using C Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 2.pdf'}>Data Structures using C Set 2</Link></li>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Computer Architecture</Link></li> */}
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Probability & Statistics</Link></li> */}
