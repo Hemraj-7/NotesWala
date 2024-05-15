@@ -15,13 +15,13 @@ const page = () => {
                 <div className='text-lg'>
                     Welcome to <span className='font-bold text-xl text-blue-800'>NotesWala!</span>, your premier resource hub for all your MCA study essentials! We value your feedback, queries, and suggestions. Feel free to get in touch with us through any of the following channels:
                     <h3 className='font-bold pt-2'>General Inquiries</h3>
-                    <p>Have questions about our study materials, assignments, or notifications? Reach out to our team for prompt assistance. We're here to ensure your academic journey is smooth and successful.</p>
+                    <p>Have questions about our study materials, assignments, or notifications? Reach out to our team for prompt assistance. We are here to ensure your academic journey is smooth and successful.</p>
                     <h3 className='font-bold pt-2'>Technical Support</h3>
                     <p>Encountering technical issues while accessing our website? Our dedicated support team is ready to help you troubleshoot any problems and ensure you have uninterrupted access to our resources.</p>
                     <h3 className='font-bold pt-2'>Collaboration Opportunities</h3>
-                    <p>Interested in collaborating with NotesWala for academic projects, content creation, or partnerships? Let's explore opportunities to work together and create value for MCA students at PGRRCDE, Osmania University.</p>
+                    <p>Interested in collaborating with NotesWala for academic projects, content creation, or partnerships? Lets explore opportunities to work together and create value for MCA students at PGRRCDE, Osmania University.</p>
                     <h3 className='font-bold pt-2'>Feedback and Suggestions</h3>
-                    <p>We highly value your feedback and suggestions to improve our platform and better serve your needs. Share your thoughts with us, and together, let's make NotesWala the ultimate destination for MCA study support.</p>
+                    <p>We highly value your feedback and suggestions to improve our platform and better serve your needs. Share your thoughts with us, and together, lets make NotesWala the ultimate destination for MCA study support.</p>
                 </div>
                 <div className='text-lg'>
                     <span className='pr-2'>
