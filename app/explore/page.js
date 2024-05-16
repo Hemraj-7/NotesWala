@@ -22,9 +22,9 @@ const page = () => {
             </ul>
             <h3 className='font-bold pt-3'>PRACTICALS</h3>
             <ul className='flex flex-col gap-2 p-3'>
-              <li className='text-slate-500 hover:text-black'><Link href={'/notes/c/DS USING C.pdf'}>Data Structures using C Lab</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Java Programming Lab</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}>Soft Skills Lab</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/theory/DS USING C.pdf'}>Data Structures using C Lab</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/theory/JAVA RECORD .pdf'}>Java Programming Lab</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/theory/Softskills Lab Record.pdf'}>Soft Skills Lab</Link></li>
             </ul>
           </div>
         </div>
@@ -58,3 +58,5 @@ const page = () => {
 }
 
 export default page
+
+// https://drive.google.com/drive/folders/1NOLws02gyKBPVNkFLvP-ceI96ZUHZN0f
