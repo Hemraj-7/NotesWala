@@ -7,11 +7,11 @@ const page = () => {
             <div>
                 <h2 className='text-center m-7 font-bold text-2xl'>MCA Semester 1 Notes</h2>
             </div>
-            <div className="w-[85%] md:w-1/2 m-7 mx-auto flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-between">
+            <div className="w-[90%] md:w-1/2 m-7 mx-auto flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-between">
                 <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
                     <h2 className='text-xl font-bold text-center p-3'>Notes</h2>
-                    <div className='p-2'>
-                        <ul className='flex flex-col gap-2 p-3'>
+                    <div>
+                        <ul className='flex flex-col gap-2 p-2'>
                             {/* <li className='text-slate-500 hover:text-black font-bold'><Link href={'/'}>Mathematical Foundations of Computer Science</Link></li> */}
                             {/* <li className='text-slate-500 hover:text-black font-bold'><Link href={'/'}>Data Structures using C</Link></li> */}
                             {/* <li className='text-slate-500 hover:text-black font-bold'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
