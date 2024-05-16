@@ -19,7 +19,7 @@ export default function Home() {
 
         </div>
         <div className="wfull md:w-1/2">
-          <Image height={600} width={600} src="/home.jpg" alt="" ></Image>
+          <Image height={600} width={600} src="/home.webp" alt="" ></Image>
         </div>
       </div>
     </>

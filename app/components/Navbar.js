@@ -14,6 +14,7 @@ const Navbar = () => {
                 <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Notes</li></Link>
                 <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Assignments</li></Link>
                 <Link href={'/explore'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Notifications</li></Link>
+                <Link href={'/explore/q_paper'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Question Paper</li></Link>
                 <Link href={'/contact'} className=' border border-white p-[1px] px-2 rounded-xl hover:text-gray-300 hover:border-gray-300'><li>Contact</li></Link>
             </ul>
         </div>
