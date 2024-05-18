@@ -24,6 +24,9 @@ const page = () => {
                                     <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/Fp&s(unit-2(binomialprobs)) .pdf'}>Probability & Statistics Unit 2 Binomialprobs</Link></li>
                                     <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/unit-3(p&s) .pdf'}>Probability & Statistics Unit 3</Link></li>
                                     <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/Unit-3(p&s) -1.pdf'}>Probability & Statistics Unit 3 part-2</Link></li>
+                                    <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/Unit-4(p&s) .pdf'}>Probability & Statistics Unit 4</Link></li>
+                                    <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/Unit-4(exa) .pdf'}>Probability & Statistics Unit 4 Exa</Link></li>
+                                    <li className='text-slate-500 hover:text-black'><Link href={'/notes/ps/Unit-5(p&s) .pdf'}>Probability & Statistics Unit 5</Link></li>
                                 </ul>
                             </li>
                             <li className='text-slate-500 hover:text-black'><span className='font-bold'>Managerial Economics and Accountancy</span>
