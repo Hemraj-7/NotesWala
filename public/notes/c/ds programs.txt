@@ -1,0 +1,359 @@
+Program to read 3 numbers and find the biggest.
+
+#include<stdio.h>
+void main()
+{	
+	int a,b,c;
+	printf("Enter 3 numbers\n");
+	scanf("%d%d%d",&a,&b,&c);
+	if(a>b)
+	{
+		if(a>c)
+		{
+			printf("A is big\n");
+		}
+		else	
+		{
+			printf("C is big\n");
+		}
+	}
+	else
+	{
+		if(b>c)
+		{
+			printf("B is big\n");
+		}
+		else
+		{
+			printf("c is big\n");
+		}
+	}
+}	
+			
+
+
+
+
+Conditional Statements in 'C'
+The following are the various conditional Statments available in C language:
+1. if
+2. if .. else
+3. if else if   construct
+4. nested if .. else
+5. switch .. case
+6. Conditional Operator (?:)
+
+1. if
+
+syntax :       if(condition)
+		{
+			statement 1;
+			statement 2;
+			. . . .
+		}
+If the given condition is true, the statments under the if block, are executed, otherwise not.
+	
+	Eg: 
+			if(x>25)
+			{
+				printf("x is GT 25\n");
+				x = x + 5;
+			}
+2. if .. else
+
+syntax :       if(condition)
+		{
+			statement 1;
+			statement 2;
+			. . . .
+		}
+		else
+		{
+			statement 3;
+			statement 4;
+			. . . .
+		}	
+If the given condition is true, the statments under the if block, (statments 1,2...) are executed, otherwise the statments under the else block, (statments 3,4...) are executed.
+	
+	Eg: 
+			if(x>25)
+			{
+				printf("x is GT 25\n");
+				x = x + 5;
+			}
+			else
+			{
+				printf("x is LT 25\n");
+				x = x - 5;
+			}
+		
+3. if else if   construct
+	
+	syntax:
+	 	if(condition 1)
+		{
+			statement 1;
+			statement 2;
+			. . . .
+		}
+		else if(condition 2)
+		{
+			statement 3;
+			statement 4;
+			. . . .
+		} 
+		else if(condition 3)
+		{
+			statement 5;
+			statement 6;
+			. . . .
+		} 
+		 . . . .
+		 . .  . .
+		else
+		{
+			statement n;
+		}
+
+4. nested if . . else
+
+	syntax: 	
+		if(condition 1)
+		{
+			statement 1;
+			if(condition 2)
+			{
+				statement 2;
+			}
+			else
+			{
+				statement 3;
+			}	
+			statement 4;
+		}	
+		else
+		{
+			statement 5;
+			if(condition 3)
+			{
+				statement 6;
+			}
+			else
+			{
+				statement 7;
+			}	
+			statement 8;
+		}	
+					
+5. switch .. case
+	Syntax: 	
+		switch(expression)
+		{	
+			case label list 1 :	 statement 1;
+						 statement 2;
+						break;
+			case label list 2 :	 statement 3;
+						 statement 4;
+						break;
+			case label list 3 :	 statement 5;
+						 statement 6;	
+						 break;
+			 . . . .			. . . . 				
+			. . . .			. . . . 				
+			default :	statement n;
+	}
+6. Conditional Operator (?:)
+	
+	syntax :  		(condition) ? statment 1: statement 2 ;
+
+if the given condition is true the statement after ? (statement 1) is executed otherwise the statement after : part (i.e, statement 2) is executed.
+
+	Example: 	(a>b) ? printf("A is Big\n") : printf("B is big\n") ;
+
+(a>b)?(a>c)?printf("A is big\n"):printf("C is Big\n"):(b>c)?printf("B is big\n") : printf("c is Big\n");
+
+(a>b&&a>c)?printf("A is big\n"):b>c?printf("B is big\n"):printf("C is big\n");
+
+Searching and Sorting
+Searching:
+It is the process of comparing a specific search element is there whether in a List of Elements or not. If the Search element is existing in the list, then it will return the position of the element otherwise it will return false, which means the search is unsuccessfull.
+In general, there are 2 basic types of Searching, namely,
+	1. Linear Search (Sequential Search)
+	2. Binary Search.
+
+1. Linear Search or Sequential Search: 
+In this searching method, the search element s, is compared from the first element of the list to the last element of the list, till the element is Found or all the elements are exhausted, in which case search is unsuccessfull.
+
+Program for Linear Search.
+#include<stdio.h>
+void main()
+{	
+	int List[100], n, s, i, ch;
+	printf("Enter the size of the List\n");
+	scanf("%d", &n);
+	printf("Enter %d Elements of the List\n",n);
+	for(i=0;i<n;i++)
+		scanf("%d", &List[i]);
+	do{
+		printf("Enter the Search Element \n");	
+		scanf("%d", &s);
+		for(i=0;i<n;i++)	
+			if(s==List[i])
+				break;
+		if(i<n)
+			printf("The Search Element %d is Found at %d position\n", s, i+1);
+		else
+			printf("The search Element %d is Not Found\n",s); 
+printf("Do want to search another element?(1/0)\n");
+scanf("%d", &ch);
+}while(ch);
+}
+
+Binary Search:
+In this technique of searching, the elements of the List must be in an Order ( either Ascending or Descending), then only this can be applied for Searching a specific element.
+
+We assume that the elements of the List are in Ascending Order. The Binary Search Techcnique will find the middle element of the List and it compare the Search Element 'S' with the middle element of the List. 
+If the S = = middle element, then we stop further searching, and we say that the element is Found at m+1 position.
+ else  If the S < middle element, then we apply the Binary Search technique on the first half of the List (0 to m-1) 
+else (S > middle element), then we apply the Binary Search technique on the Second half of the List (m+1  to h).
+
+This is continue until the element is Found or all the elements are exhausted.
+
+Write a program to imlement Binary Search Technique.
+
+Program for Binary Search.
+#include<stdio.h>
+void main()
+{	
+	int List[100],n,s,i,ch,l,m,h;
+	printf("Enter the size of the List\n");
+	scanf("%d",&n);
+	printf("Enter %d Elements of the List in Ascending Order\n",n);
+	for(i=0;i<n;i++)
+		scanf("%d",&List[i]);
+	do{
+	   	l=0, h=n-1;     
+		printf("Enter the Search Element \n");	
+		scanf("%d",&s);
+		while(l<=h)
+		{
+			m=(l+h)/2;
+			if(s==List[m])
+				break;
+			else if(s<List[m])
+				h=m-1;
+			else
+				l=m+1;
+		}
+		if(l<=h)
+			printf("The Search Element %d is Found at %d 		                       position\n",s,m+1);
+		else
+			printf("The search Element %d is Not Found\n",s); 
+	printf("Do want to search another element?(1/0)\n");
+	scanf("%d", &ch);
+	}while(ch);
+}
+
+Sorting: 
+It is the technique of arranging a given List of elements in an Order either Ascending or Descending. There are many Sorting Technique available. Some of them we are going to discuss are as follows:
+
+	1.  Bubble Sort
+	2. Selection Sort
+	3. Insertion Sort
+	4. Merge Sort
+	5. Quick Sort
+etc.	 
+
+1. Bubble Sort: In this technique, everty 2 consecutive elements are compared and arranged in an order starting from the first element of the List to the Last element of the List. This is only one iteration. Like this there should be n-1 iterations, if n is the number of elements to be sorted.
+Program to implement Bubble Sort Technique.
+#include<stdio.h>
+void main()
+{
+	int List[100]	,n,i,j,t;
+	printf("Enter how many elements you want to sort\n");	
+	scanf("%d", &n);
+	printf("Enter %d elements of the List\n",n);
+	for(i=0;i<n;i++)
+		scanf("%d",&List[i]);
+	for(i=0;i<n-1;i++)
+	{
+		for(j=0;j<n-1;j++)
+		{
+			if(List[j] > List[j+1])
+			{
+				t = List[j];
+				List[j] = List[j+1];
+				List[j+1] = t;
+			}
+		}
+	}	
+	printf("After Bubble Sort the elements are :\n");
+	for(i=0;i<n;i++)	
+		printf("%d, ",List[i]);
+}	
+
+2. Selection Sort: In this technique, the smallest element is selected and placed in the First position of the list, and then from the remaining elements the next least element and placed in the second position, and like that till all the positions are filled.
+That is the reason we got this sorting technique as Selection Sort, Selecting the least element and putting in the First position, and from the remaining selecting the next least element and  placed in the second position, and so on.
+
+Program to implement selections Sort Technique.
+#include<stdio.h>
+void main()
+{
+	int List[100],n,i,j,t;
+	printf("Enter how many elements you want to sort\n");	
+	scanf("%d", &n);
+	printf("Enter %d elements of the List\n",n);
+	for(i=0;i<n;i++)
+		scanf("%d",&List[i]);
+	for(i=0;i<n-1;i++)
+	{
+		for(j=i+1;j<n;j++)
+		{
+			if(List[i] > List[j])
+			{
+				t = List[i];
+				List[i] = List[j];
+				List[j] = t;
+			}
+		}
+	}	
+	printf("After Selection Sort the elements are :\n");
+	for(i=0;i<n;i++)	
+		printf("%d, ",List[i]);
+}
+
+Program to implement Insertion Sort Technique.
+#include<stdio.h>
+void main()
+{
+	int List[100],x,n,i,z,k;
+	printf("Enter how many elements you want to sort\n");	
+	scanf("%d", &n);
+	printf("Enter %d elements of the List\n",n);
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&x);
+		k=i-1;
+		while(k>=0 && List[k]>x )
+		{
+			List[k+1]=List[k];
+			k--;	
+		}
+		List[k+1]=x;
+	}
+	printf("The Elements after Insertion Sort are:\n");
+	for(i=0;i<n;i++)	
+		printf("%d, ",List[i]);
+}
+
+
+
+
+
+
+			
+2 Dimenstional Arrays:
+
+
+
+

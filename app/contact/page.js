@@ -31,9 +31,10 @@ const page = () => {
                         Prof G. Ram Reddy Center of Distance Education, Osmania University, Hyderabad
                     </Link>
                 </div>
-                <div className='flex gap-5 py-8'>
+                <div className='flex items-center justify-center gap-5 py-8'>
                     <button><Link href={'https://github.com/Hemraj-7'}><FaGithub className='text-3xl' /></Link></button>
                     <button><Link href={'https://www.linkedin.com/in/hem-raj-862624202/'}><FaLinkedin className='text-3xl' /></Link></button>
+                    <button><Link href={'https://github.com/Hemraj-7'}><img width={45} src="./man.svg" alt="" /></Link></button>
                     <button><Link href={'https://www.instagram.com/hemraj__parihar/'}><FaInstagram className='text-3xl' /></Link></button>
                     <button><a href="mailto:mhemraj814@gmail.com"><CgMail className='text-[38px]' /></a></button>
                 </div>
