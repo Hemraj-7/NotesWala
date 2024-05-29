@@ -38,7 +38,7 @@ const page = () => {
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Computer Architecture</Link></li> */}
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Probability & Statistics</Link></li> */}
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment Set 1.pdf'}>Managerial Economics and Accountancy Set 1</Link></li>
-              {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Soft Skills Lab</Link></li> */}
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/soft skills assignment set 1.pdf'}>Soft Skills Lab Set 1</Link></li>
             </ul>
         </div>
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
