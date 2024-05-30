@@ -46,6 +46,7 @@ const page = () => {
             <ul className='flex flex-col gap-2 p-3 px-5'>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/notify/'}>Assignments Notification</Link></li> */}
               <li className='text-slate-500 hover:text-black'><Link href={'/explore/q_paper/'}>Previous Year Quetions Paper</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notify/IMPQuestions_Sem1.pdf'}>All Subjects Important Quetions </Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/MEA important questions.pdf'}>MEA Important Quetions </Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/ME Sem 1 Important question 2021.pdf'}>MEA Important Quetions </Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/Time Table.pdf'}>Weekend Classes Time Table</Link></li>
