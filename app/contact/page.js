@@ -13,7 +13,7 @@ const page = () => {
                     </h1>
                 </div>
                 <div className='text-lg'>
-                    Welcome to <span className='font-bold text-xl text-blue-800'>NotesWala!</span>, your premier resource hub for all your MCA study essentials! We value your feedback, queries, and suggestions. Feel free to get in touch with us through any of the following channels:
+                    Welcome to <span className='font-bold text-xl text-blue-800'>NotesWala!</span>, your spanmier resource hub for all your MCA study essentials! We value your feedback, queries, and suggestions. Feel free to get in touch with us through any of the following channels:
                     <h3 className='font-bold pt-2'>General Inquiries</h3>
                     <p>Have questions about our study materials, assignments, or notifications? Reach out to our team for prompt assistance. We are here to ensure your academic journey is smooth and successful.</p>
                     <h3 className='font-bold pt-2'>Technical Support</h3>
@@ -32,11 +32,13 @@ const page = () => {
                     </Link>
                 </div>
                 <div className='flex items-center justify-center gap-5 py-8'>
-                    <button><Link href={'https://github.com/Hemraj-7'}><FaGithub className='text-3xl' /></Link></button>
-                    <button><Link href={'https://www.linkedin.com/in/hem-raj-862624202/'}><FaLinkedin className='text-3xl' /></Link></button>
+                    {/* <button><Link href={'https://github.com/Hemraj-7'}><FaGithub className='text-3xl' /></Link></button> */}
+                    {/* <button><Link href={'https://www.linkedin.com/in/hem-raj-862624202/'}><FaLinkedin className='text-3xl' /></Link></button> */}
+                    <span>-----</span>
                     <button><Link href={'https://hemraj-7.netlify.app'}><img width={45} src="./man.svg" alt="" /></Link></button>
-                    <button><Link href={'https://www.instagram.com/hemraj__parihar/'}><FaInstagram className='text-3xl' /></Link></button>
-                    <button><a href="mailto:mhemraj814@gmail.com"><CgMail className='text-[38px]' /></a></button>
+                    <span>-----</span>
+                    {/* <button><Link href={'https://www.instagram.com/hemraj__parihar/'}><FaInstagram className='text-3xl' /></Link></button> */}
+                    {/* <button><a href="mailto:mhemraj814@gmail.com"><CgMail className='text-[38px]' /></a></button> */}
                 </div>
             </div>
         </div>
