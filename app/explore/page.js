@@ -32,13 +32,13 @@ const page = () => {
           <h2 className='text-xl font-bold text-center p-3'>Assignments</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MFCS Assignment Set - 1.pdf'}>Mathematical Foundations of Computer Science Assignment Set 1</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 1.pdf'}>Data Structures using C Set 1</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 2.pdf'}>Data Structures using C Set 2</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 1.pdf'}>Data Structures using C Assignment Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 2.pdf'}>Data Structures using C Assignment Set 2</Link></li>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Computer Architecture</Link></li> */}
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Probability & Statistics</Link></li> */}
-              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment Set 1.pdf'}>Managerial Economics and Accountancy Set 1</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/soft skills assignment set 1.pdf'}>Soft Skills Lab Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment Set 1.pdf'}>Managerial Economics and Accountancy Assignment Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/soft skills assignment set 1.pdf'}>Soft Skills Lab Assignment Set 1</Link></li>
             </ul>
         </div>
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
