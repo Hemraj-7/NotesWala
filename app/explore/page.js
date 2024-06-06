@@ -31,7 +31,7 @@ const page = () => {
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
           <h2 className='text-xl font-bold text-center p-3'>Assignments</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
-              {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Mathematical Foundations of Computer Science</Link></li> */}
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MFCS Assignment Set - 1.pdf'}>Mathematical Foundations of Computer Science Assignment Set 1</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 1.pdf'}>Data Structures using C Set 1</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 2.pdf'}>Data Structures using C Set 2</Link></li>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
