@@ -45,7 +45,7 @@ const page = () => {
           <h2 className='text-xl font-bold text-center p-3'>Notifications</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/notify/'}>Assignments Notification</Link></li> */}
-              <li className='text-slate-500 hover:text-black'><Link href={'/explore/q_paper/'}>Previous Year Quetions Paper</Link></li>
+              {/* <li className='text-slate-500 hover:text-black'><Link href={'/explore/q_paper/'}>Previous Year Quetions Paper</Link></li> */}
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/MCA I Semester assignment.pdf'}>MCA 1st Semester Assignment Notification</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/IMPQuestions_Sem1.pdf'}>All Subjects Important Quetions </Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/MEA important questions.pdf'}>MEA Important Quetions </Link></li>
