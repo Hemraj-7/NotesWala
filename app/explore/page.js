@@ -41,6 +41,7 @@ const page = () => {
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment Set 1.pdf'}>Managerial Economics and Accountancy Assignment Set 1</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment set 2.pdf'}>Managerial Economics and Accountancy Assignment Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/soft skills assignment set 1.pdf'}>Soft Skills Lab Assignment Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/SOFT SKILLS PART2.pdf'}>Soft Skills Lab Assignment Set 2</Link></li>
             </ul>
         </div>
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
