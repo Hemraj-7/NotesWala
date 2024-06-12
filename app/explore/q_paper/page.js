@@ -11,6 +11,7 @@ const page = () => {
                 <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
                     <h2 className='text-xl font-bold text-center p-3'>Previous Year Qustion Papers</h2>
                     <div className='p-2 px-3'>
+                        <div className='text-center font-bold text-sm pb-2 text-slate-700'>These papers are of last year's regular college students. Not of distance education centre students.</div>
                         <ul className='flex flex-col gap-3 p-3'>
                             <li className='text-slate-500 hover:text-black'><Link href={'/notify/q_paper/mfcs previous papers.pdf'}>Mathematical Foundations of Computer Science</Link></li>
                             <li className='text-slate-500 hover:text-black'><Link href={'/notify/q_paper/DS previous Question papers.pdf'}>Data Structures using C</Link></li>
