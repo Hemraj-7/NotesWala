@@ -37,6 +37,7 @@ const page = () => {
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structure using C Assignment Set 2.pdf'}>Data Structures using C Assignment Set 2</Link></li>
               {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/computer architecture set-1.pdf'}>Computer Architecture Assignment Set 1</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/computer architecture set-2.pdf'}>Computer Architecture Assignment Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Probability Statistics Assignment Set 1 and 2.pdf'}>Probability & Statistics Assignment Set 1 and Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment Set 1.pdf'}>Managerial Economics and Accountancy Assignment Set 1</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/MEA Assignment set 2.pdf'}>Managerial Economics and Accountancy Assignment Set 2</Link></li>
