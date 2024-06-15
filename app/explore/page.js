@@ -55,6 +55,7 @@ const page = () => {
             </ul>
         </div>
       </div>
+      <marquee behavior="" direction=""><p className='p-1 pb-2 text-red-600 font-bold text-sm'>*Notes of some subjects are not available yet, they will be uploaded soon. Thank you!</p></marquee>
     </>
   )
 }
