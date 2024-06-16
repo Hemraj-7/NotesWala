@@ -14,7 +14,7 @@ const page = () => {
           <div className='p-1 px-2'>
             <h3 className='font-bold pt-1'>THEORY</h3>
             <ul className='flex flex-col gap-2 p-3'>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}><span className='text-red-600'>*</span>Mathematical Foundations of Computer Science</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/mfcs/MFCS notes.pdf'}>Mathematical Foundations of Computer Science</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notes/c/C Programming Handwritten Notes.pdf'}>Data Structures using C</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notes/java/Full Java notes .pdf'}>Object Oriented Programming using Java</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/'}><span className='text-red-600'>*</span>Computer Architecture</Link></li>
