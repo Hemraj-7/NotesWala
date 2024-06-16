@@ -34,7 +34,7 @@ const page = () => {
             <ul className='flex flex-col gap-2 p-3 px-5'>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Mathematical Foundations of Computer Science Assignment Set-1 and Set-2.pdf'}>Mathematical Foundations of Computer Science Assignment Set 1 and Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Data Structures using C Assignment Set-1 and Set-2.pdf'}>Data Structures using C Assignment Set1 and Set2</Link></li>
-              {/* <li className='text-slate-500 hover:text-black'><Link href={'/'}>Object Oriented Programming using Java</Link></li> */}
+              <li className='text-slate-500 hover:text-black'><Link href={'/assignment/ASSIGNMENT OOPS JAVA.pdf'}>Object Oriented Programming using Java Assignment Set 1 and Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Computer Architecture Set-1 and Set-2.pdf'}>Computer Architecture Assignment Set 1 and Set 2</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Probability statistics Assignment Set 1.pdf'}>Probability and Statistics Assignment Set 1</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Probability Statistics Assignment Set 1 and 2.pdf'}>Probability & Statistics Assignment Set 1 and Set 2</Link></li>
@@ -45,6 +45,7 @@ const page = () => {
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
           <h2 className='text-xl font-bold text-center p-3'>Notifications</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notify/.pdf'}>Front Page of Assignment</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/MCA(cde) previous questions .pdf'}>MCA Previous Year Quetions Papers for Students of PGRRCDE</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/MCA I Semester assignment.pdf'}>MCA 1st Semester Assignment Notification</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/IMPQuestions_Sem1.pdf'}>All Subjects Important Quetions </Link></li>
