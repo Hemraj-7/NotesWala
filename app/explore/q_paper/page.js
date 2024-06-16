@@ -7,7 +7,7 @@ const page = () => {
             <div>
                 <h2 className='text-center m-5 font-bold text-2xl'>MCA Semester 1</h2>
             </div>
-            <div className="w-[90%] md:w-1/3 m-2 mx-auto flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-between mb-7">
+            <div className="w-[90%] md:h-[517px] md:w-1/3 m-2 mx-auto flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-between mb-7">
                 <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
                     <h2 className='text-xl font-bold text-center p-3'>Previous Year Qustion Papers</h2>
                     <div className='p-2 px-3'>
