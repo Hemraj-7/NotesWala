@@ -17,7 +17,7 @@ const page = () => {
               <li className='text-slate-500 hover:text-black'><Link href={'/notes/mfcs/MFCS notes.pdf'}>Mathematical Foundations of Computer Science</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notes/c/C Programming Handwritten Notes.pdf'}>Data Structures using C</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/notes/java/Full Java notes .pdf'}>Object Oriented Programming using Java</Link></li>
-              <li className='text-slate-500 hover:text-black'><Link href={'/'}><span className='text-red-600'>*</span>Computer Architecture</Link></li>
+              <li className='text-slate-500 hover:text-black'><Link href={'/notes/csa/Computer System Architecture-Morris Mano third edition.pdf'}>Computer Architecture</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/explore/notes'}>Probability & Statistics</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'/explore/notes'}>Managerial Economics and Accountancy</Link></li>
             </ul>
