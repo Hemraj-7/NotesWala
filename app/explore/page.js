@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <h2 className='text-center m-5 font-bold text-2xl'>MCA Semester 1</h2>
     </div>
-    <marquee behavior="" direction=""><p className='p-1 pb-2 text-red-600 font-bold text-sm'>*Notes of some subjects are not available yet, they will be uploaded soon. Thank you!</p></marquee>
+    {/* <marquee behavior="" direction=""><p className='p-1 pb-2 text-red-600 font-bold text-sm'>*Notes of some subjects are not available yet, they will be uploaded soon. Thank you!</p></marquee> */}
       <div className="w-[90%] m-2 mx-auto flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-between">
         <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
           <h2 className='text-xl font-bold text-center p-3'>Notes</h2>
@@ -56,7 +56,6 @@ const page = () => {
             </ul>
         </div>
       </div>
-      <marquee behavior="" direction=""><p className='p-1 pb-2 text-red-600 font-bold text-sm'>*Notes of some subjects are not available yet, they will be uploaded soon. Thank you!</p></marquee>
     </>
   )
 }
