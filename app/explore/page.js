@@ -62,3 +62,5 @@ const page = () => {
 export default page
 
 // https://drive.google.com/drive/folders/1NOLws02gyKBPVNkFLvP-ceI96ZUHZN0f
+
+// https://docs.google.com/document/d/1I7lQUfMXFtiCWNefNj1gFw3K7LXNGN5t2GXYLGlVDyg/edit?usp=sharing
