@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
+// import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+// import { CgMail } from "react-icons/cg";
 import Link from 'next/link';
 
 const page = () => {
