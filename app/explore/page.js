@@ -55,7 +55,7 @@ const page = () => {
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/Time Table.pdf'}>Weekend Classes Time Table</Link></li>
               <li className='text-slate-500 hover:text-black'><Link href={'./notify/MCA_Syllabus.pdf'}>MCA Syllabus</Link></li>
             </ul>
-        </div>
+        </div> 
       </div>
     </>
   )
