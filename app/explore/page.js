@@ -42,7 +42,7 @@ const page = () => {
               <li className='text-slate-500 hover:text-black'><Link href={'/assignment/Soft Skills Lab Assignment Set-1 and Set-2.pdf'}>Soft Skills Lab Assignment Set 1 and Set 2</Link></li>
             </ul>
         </div>
-        <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg'>
+        <div className='w-full md:min-h-[500px] border border-black p-2 rounded-lg mb-4 md:mb-0'>
           <h2 className='text-xl font-bold text-center p-3'>Notifications</h2>
             <ul className='flex flex-col gap-2 p-3 px-5'>
               <li className='text-slate-500 hover:text-black'><Link href={'/notify/Front Page of Assignment.pdf'}>Front Page of Assignment</Link></li>
