@@ -68,7 +68,7 @@ If you have any questions or need further assistance, feel free to contact us:
 
 - **Email**: support@noteswala.com
 - **Linked In**: [Hemraj](https://www.linkedin.com/in/hem-raj-862624202/)
-- **Website**: [www.noteswala.com](http://www.noteswala.com)
+- **Website**: [www.noteswala.com](https://noteswalaou.netlify.app/)
 
 ---
 
