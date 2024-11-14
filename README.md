@@ -16,7 +16,7 @@ To set up the project locally on your machine, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/<your-username>/NotesWala.git
+    git clone https://github.com/your-username/NotesWala.git
     ```
 
 2. **Navigate to the project directory**:
@@ -68,7 +68,7 @@ If you have any questions or need further assistance, feel free to contact us:
 
 - **Email**: support@noteswala.com
 - **Linked In**: [Hemraj](https://www.linkedin.com/in/hem-raj-862624202/)
-- **Website**: [www.noteswala.com](http://www.noteswala.com)
+- **Website**: [NotesWala](https://noteswalaou.netlify.app/)
 
 ---
 
